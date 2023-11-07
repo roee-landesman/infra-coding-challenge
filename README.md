@@ -12,11 +12,10 @@ tflocal apply
 
 ## Questions
 
-Questions:
-    1. Can you explain the purpose of `depends_on` and its usage in Terraform configurations? Could you remove this line and still have a working terraform configuration?
-    2. If you were to write a CI pipeline that deploys this code, how would you design this pipeline? What other tools might you use to ensure the integrity and security of this code?
-    3. Given that we want to expand to another environment (think Staging or Dev), how would you refactor or modify this code to achieve this?
-    4. How would you modify this code to allow for a different S3 bucket name in each environment?
+1. Can you explain the purpose of `depends_on` and its usage in Terraform configurations? Could you remove this line and still have a working terraform configuration?
+2. If you were to write a CI pipeline that deploys this code, how would you design this pipeline? What other tools might you use to ensure the integrity and security of this code?
+3. Given that we want to expand to another environment (think Staging or Dev), how would you refactor or modify this code to achieve this?
+4. How would you modify this code to allow for a different S3 bucket name in each environment?
 
 ## Challenges
 
