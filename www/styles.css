@@ -1,0 +1,64 @@
+/* Reset some default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    text-align: center;
+    padding: 1em 0;
+    border-bottom: 1px solid #ccc;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+main {
+    width: 80%;
+    max-width: 1200px;
+    margin: 2em auto;
+    padding: 0 1em;
+}
+
+.dog-profile {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 1em;
+    padding: 1em;
+    text-align: center;
+}
+
+.dog-photo {
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.breed {
+    font-style: italic;
+    color: #666;
+}
+
+.bio {
+    color: #444;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    border-top: 1px solid #ccc;
+}
+
+footer p {
+    color: #666;
+}
